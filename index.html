@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Data Warehouse BMKG</title>
+</head>
+<body>
+
+<ul>
+  <li><a href="DataWarehouse/index.html"><b>HOME</b></a></li>
+
+  <li class="dropdown_met">
+    <a href="javascript:void(0)" class="dropbtn_met"><b>METEOROLOGI</b></a>
+    <div class="dropdown-content">
+      <a href="./DataMeteorologi/met2.php">SYNOP</a>
+    </div>
+  </li>
+
+  <li class="dropdown_klim">
+    <a href="javascript:void(0)" class="dropbtn_klim"><b>KLIMATOLOGI</b></a>
+    <div class="dropdown-content">
+      <a href="./DataKlimatologi/DMI.php">DMI</a>
+      <a href="./DataKlimatologi/ONI.php">ONI</a>
+      <a href="./DataKlimatologi/IOD.php">IOD</a>
+      <a href="./DataKlimatologi/RCP45.php">RCP 4.5</a>
+      <a href="./DataKlimatologi/RCP85.php">RCP 8.5</a>
+    </div>
+  </li>
+
+    <li class="dropdown_geof">
+      <a href="javascript:void(0)" class="dropbtn_geof"><b>GEOFISIKA</b></a>
+      <div class="dropdown-content">
+        <a href="./DataGeofisika/datagempa.php">GEMPA BUMI</a>
+      </div>
+    </li>
+
+    <img class="bmkg_logo" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-LqUyMLMG05w%2FTy0S-w100jI%2FAAAAAAAABC0%2F2AmjPy4Br1s%2Fs200%2Flogo_BMKG.png&f=1&nofb=1">
+</ul>
+
+<div align="center" class="card">
+  <div>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstmkg.ac.id%2Fwp-content%2Fuploads%2F2014%2F05%2Fmeteo2-300x281.png&f=1&nofb=1" width="224px" length="225px">
+  </div>
+  <h3><b>METEOROLOGI</b></h3>
+  <div>
+    <button class="button-met" onclick="document.location='DataMeteorologi/met2.php'">Masuk</button>
+  </div>
+</div>
+
+
+<div align="center" class="card">
+  <div>
+    <img src="./Source/klim.jpg" width="224px" length="225px">
+  </div>
+  <h3><b>KLIMATOLOGI</b></h3>
+  <div>
+    <button class="button-klim" onclick="document.location='DataKlimatologi/DMI.php'">Masuk</button>
+  </div>
+</div>
+
+
+<div align="center" class="card" >
+  <div>
+    <img src="./Source/geof.png" width="224px" length="225px">
+  </div>
+  <h3><b>GEOFISIKA</b></h3>
+  <div>
+    <button class="button-geof" onclick="document.location='DataGeofisika/datagempa.php'">Masuk</button>
+  </div>
+</div>
+
+</body>
+</html>
